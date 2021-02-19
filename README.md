@@ -1,11 +1,13 @@
 <h1>Repositorio para el estudio de react-redux con funciones.</h1>
 Crear acciones (preferiblement con constantes).
+
 ```
 const INCREMENTAR = 'INCREMENTAR';
 const DECREMENTAR = 'DECREMENTAR';
 ```
 
 Las actions (acciones) son las funciones que se van a pasar al reductor (reducer). Se exportan porque se van a usar para modificar el estado en el componente que lo necesite.
+
 
 ```
 export const incrementar = (cant)=>{
